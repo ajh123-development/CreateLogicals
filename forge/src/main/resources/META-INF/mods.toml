@@ -45,7 +45,7 @@ description='''
 A mod to add Logical components to Create
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.CreateLogicals]] #optional
+[[dependencies.create_logics]] #optional
    # the modid of the dependency
    modId="forge" #mandatory
    # Does this dependency have to exist - if not, ordering below must be specified
@@ -57,10 +57,16 @@ A mod to add Logical components to Create
    # Side this dependency is applied on - BOTH, CLIENT or SERVER
    side="BOTH"
 # Here's another dependency
-[[dependencies.CreateLogicals]]
+[[dependencies.create_logics]]
    modId="minecraft"
    mandatory=true
    # This version range declares a minimum of the current minecraft version up to but not including the next major version
    versionRange="[1.19.2,1.20)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.create_logics]]
+   modId="architectury"
+   mandatory=true
+   versionRange="[6.2.43,)"
    ordering="NONE"
    side="BOTH"
