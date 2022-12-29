@@ -10,6 +10,6 @@ public class CreateLogicalsForge {
     public CreateLogicalsForge() {
 		// Submit our event bus to let architectury register our content on the right time
         EventBuses.registerModEventBus(CreateLogicals.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
-            CreateLogicals.init();
+        CreateLogicals.init();
     }
 }
