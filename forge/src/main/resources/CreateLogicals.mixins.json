@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "tk.minersonline.createlogicals.CreateLogicals.mixin.forge",
+  "package": "tk.minersonline.CreateLogicals.forge.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

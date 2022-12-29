@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "CreateLogicals",
+  "id": "create_logics",
   "version": "${version}",
 
-  "name": "CreateLogicals",
-  "description": "A mod to add Logical componments to Create",
+  "name": "Create Logicals",
+  "description": "A mod to add Logical components to Create",
   "authors": [
     "ajh123"
   ],
   "contact": {
     "website": "///",
-    "repo": "///",
-    "issues": "///"
+    "repo": "https://github.com/ajh123-development/CreateLogicals",
+    "issues": "https://github.com/ajh123-development/CreateLogicals/issues"
   },
 
   "license": "GPL-3.0",
@@ -24,8 +24,7 @@
     ]
   },
   "mixins": [
-    "CreateLogicals.mixins.json",
-    "CreateLogicals-common.mixins.json"
+    "CreateLogicals.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.10",
