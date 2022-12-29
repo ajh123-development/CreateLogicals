@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "CreateLogicals",
+  "version": "${version}",
+
+  "name": "CreateLogicals",
+  "description": "A mod to add Logical componments to Create",
+  "authors": [
+    "ajh123"
+  ],
+  "contact": {
+    "website": "///",
+    "repo": "///",
+    "issues": "///"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tk.minersonline.CreateLogicals.fabric.CreateLogicalsFabric"
+    ]
+  },
+  "mixins": [
+    "CreateLogicals.mixins.json",
+    "CreateLogicals-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}
